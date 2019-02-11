@@ -5,7 +5,9 @@ public class StringUtilities {
      * @return `input`
      */
     public String returnInput(String input) {
-        return null;
+        input = "";
+        
+        return input;
     }
 
     /**
@@ -14,7 +16,9 @@ public class StringUtilities {
      * @return the concatenation of `baseValue` and `valueToBeAdded`
      */
     public String concatenate(String baseValue, String valueToBeAdded) {
-        return null;
+        String concatenate = "baseValue + valueToBeAdded";
+        
+        return concatenate;
     }
 
     /**
@@ -22,6 +26,7 @@ public class StringUtilities {
      * @return identical string with characters in opposite order
      */
     public String reverse(String valueToBeReversed) {
+        //String reverse = ("");
         return null;
     }
 
@@ -47,6 +52,7 @@ public class StringUtilities {
      * @return last `word` in sentence
      */
     public String getLastWord(String sentence) {
-        return null;
+        
+        return sentence;
     }
 }

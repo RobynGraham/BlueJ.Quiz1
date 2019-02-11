@@ -10,7 +10,15 @@ public class LoopFun
        * @return the factorial of the number
        */
       public Integer factorial(Integer number){
-          return null;
+        number = 5;
+        long fact = 1;
+        int i = 1;
+        while(i<=number);
+        {fact = fact * i;
+          i++;
+          
+        }
+        return number;
       }
 
       /**
@@ -21,7 +29,17 @@ public class LoopFun
        * @return Upper case string of the first letter of each word
        */
       public String acronym(String phrase) {
-          return null;
+          String [] acronym = "Ruby on Rails".split("[\\R, \\o, \\R]");
+          String newString = "";
+          for(String s:acronym){
+              newString += s.charAt(0); 
+              
+            }
+          
+          
+          
+          
+          return newString;
       }
 
       /**
